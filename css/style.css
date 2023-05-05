@@ -15,7 +15,6 @@ body {
 .container {
     max-width: 1000px;
     margin: auto;
-    border: 5px solid black;
 }
 
 .pink-color {
@@ -24,6 +23,30 @@ body {
 
 .background-cards {
     background-color: black;
+}
+
+.white-color {
+    color: white;
+}
+
+.email-color {
+    color: #2C5D65;
+}
+
+.padding-bottom{
+    padding-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+.float-right{
+    float: right;
 }
 /*HEADER*/
 
@@ -35,3 +58,31 @@ header h1,p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/*MAIN*/
+
+
+ .single-card {
+    width: calc((100% / 3)-20px);
+    height: 100px;
+ }   
+    
+
+
+img {
+    height: 100px;
+}
+
+.cards > *{
+    float: left;
+}
+
+div:nth-child(3n+2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
